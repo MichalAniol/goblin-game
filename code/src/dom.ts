@@ -1,9 +1,52 @@
+type RecursiveHTMLElement<T> = {
+    [K in keyof T]: T[K] extends string
+    ? HTMLElement | null
+    : RecursiveHTMLElement<T[K]>
+}
+
 const dom = (function () {
     const byId = (name: string) => document.getElementById(name)
     const byQuery = (query: string) => document.querySelector(query)
     const byQueryAll = (query: string) => document.querySelectorAll(query)
     const byQ = (elem: HTMLElement | HTMLInputElement | HTMLButtonElement, query: string) => elem.querySelector(query)
     const byQAll = (elem: HTMLElement | HTMLInputElement | HTMLButtonElement, query: string) => elem.querySelectorAll(query)
+
+    const prepare = (node: Element | HTMLElement | HTMLImageElement | string, options?: {
+        delete?: boolean,
+        id?: string,
+        classes?: string[],
+        children?: HTMLElement[],
+        src?: string,
+        inner?: string,
+        position?: {x: number, y: number},
+    }) => {
+        const elem: Element | HTMLElement | HTMLImageElement =
+            typeof node === "string" ? document.createElement(node) : node
+
+        if (elem && elem instanceof HTMLElement) {
+            if (options.delete) {
+                elem.remove()
+                return
+            }
+
+            if (options?.id) elem.id = options.id
+            options?.classes?.forEach((c) => elem.classList.add(c))
+            options?.children?.forEach((c) => elem.appendChild(c))
+
+            if (options?.src && elem instanceof HTMLImageElement) {
+                elem.src = options.src
+            }
+            if (options?.inner) {
+                elem.textContent = options.inner
+            }
+            if (options?.position) {
+                elem.style.left = `${options.position.x}px`
+                elem.style.top = `${options.position.y}px`
+            }
+
+            return elem
+        }
+    }
 
     type ModifiableCSSProperties = {
         [K in keyof CSSStyleDeclaration as CSSStyleDeclaration[K] extends ((...args: any[]) => any) ? never : K]: string;
@@ -57,6 +100,7 @@ const dom = (function () {
         byQueryAll,
         byQ,
         byQAll,
+        prepare,
         setStyle,
         setAllStyles,
         setAttribute,

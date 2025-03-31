@@ -1,0 +1,731 @@
+.coin {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.coin-000 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 0;
+}
+
+.coin-001 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px 0;
+}
+
+.coin-002 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px 0;
+}
+
+.coin-003 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px 0;
+}
+
+.coin-004 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px 0;
+}
+
+.coin-005 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px 0;
+}
+
+.coin-006 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px 0;
+}
+
+.coin-007 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px 0;
+}
+
+.coin-008 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px 0;
+}
+
+.coin-009 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px 0;
+}
+
+.coin-010 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px 0;
+}
+
+.coin-011 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -40px;
+}
+
+.coin-012 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -40px;
+}
+
+.coin-013 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -40px;
+}
+
+.coin-014 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -40px;
+}
+
+.coin-015 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -40px;
+}
+
+.coin-016 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -40px;
+}
+
+.coin-017 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -40px;
+}
+
+.coin-018 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -40px;
+}
+
+.coin-019 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -40px;
+}
+
+.coin-020 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -40px;
+}
+
+.coin-021 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -40px;
+}
+
+.coin-022 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -80px;
+}
+
+.coin-023 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -80px;
+}
+
+.coin-024 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -80px;
+}
+
+.coin-025 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -80px;
+}
+
+.coin-026 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -80px;
+}
+
+.coin-027 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -80px;
+}
+
+.coin-028 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -80px;
+}
+
+.coin-029 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -80px;
+}
+
+.coin-030 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -80px;
+}
+
+.coin-031 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -80px;
+}
+
+.coin-032 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -80px;
+}
+
+.coin-033 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -120px;
+}
+
+.coin-034 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -120px;
+}
+
+.coin-035 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -120px;
+}
+
+.coin-036 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -120px;
+}
+
+.coin-037 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -120px;
+}
+
+.coin-038 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -120px;
+}
+
+.coin-039 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -120px;
+}
+
+.coin-040 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -120px;
+}
+
+.coin-041 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -120px;
+}
+
+.coin-042 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -120px;
+}
+
+.coin-043 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -120px;
+}
+
+.coin-044 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -160px;
+}
+
+.coin-045 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -160px;
+}
+
+.coin-046 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -160px;
+}
+
+.coin-047 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -160px;
+}
+
+.coin-048 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -160px;
+}
+
+.coin-049 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -160px;
+}
+
+.coin-050 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -160px;
+}
+
+.coin-051 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -160px;
+}
+
+.coin-052 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -160px;
+}
+
+.coin-053 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -160px;
+}
+
+.coin-054 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -160px;
+}
+
+.coin-055 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -200px;
+}
+
+.coin-056 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -200px;
+}
+
+.coin-057 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -200px;
+}
+
+.coin-058 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -200px;
+}
+
+.coin-059 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -200px;
+}
+
+.coin-060 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -200px;
+}
+
+.coin-061 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -200px;
+}
+
+.coin-062 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -200px;
+}
+
+.coin-063 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -200px;
+}
+
+.coin-064 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -200px;
+}
+
+.coin-065 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -200px;
+}
+
+.coin-066 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -240px;
+}
+
+.coin-067 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -240px;
+}
+
+.coin-068 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -240px;
+}
+
+.coin-069 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -240px;
+}
+
+.coin-070 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -240px;
+}
+
+.coin-071 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -240px;
+}
+
+.coin-072 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -240px;
+}
+
+.coin-073 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -240px;
+}
+
+.coin-074 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -240px;
+}
+
+.coin-075 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -240px;
+}
+
+.coin-076 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -240px;
+}
+
+.coin-077 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -280px;
+}
+
+.coin-078 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -280px;
+}
+
+.coin-079 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -280px;
+}
+
+.coin-080 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -280px;
+}
+
+.coin-081 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -280px;
+}
+
+.coin-082 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -280px;
+}
+
+.coin-083 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -280px;
+}
+
+.coin-084 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -280px;
+}
+
+.coin-085 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -280px;
+}
+
+.coin-086 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -280px;
+}
+
+.coin-087 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -280px;
+}
+
+.coin-088 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -320px;
+}
+
+.coin-089 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -320px;
+}
+
+.coin-090 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -320px;
+}
+
+.coin-091 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -320px;
+}
+
+.coin-092 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -320px;
+}
+
+.coin-093 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -320px;
+}
+
+.coin-094 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -320px;
+}
+
+.coin-095 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -320px;
+}
+
+.coin-096 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -320px;
+}
+
+.coin-097 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -320px;
+}
+
+.coin-098 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -320px;
+}
+
+.coin-099 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -360px;
+}
+
+.coin-100 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -360px;
+}
+
+.coin-101 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -360px;
+}
+
+.coin-102 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -360px;
+}
+
+.coin-103 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -360px;
+}
+
+.coin-104 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -360px;
+}
+
+.coin-105 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -360px;
+}
+
+.coin-106 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -360px;
+}
+
+.coin-107 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -360px;
+}
+
+.coin-108 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -360px;
+}
+
+.coin-109 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -360px;
+}
+
+.coin-110 {
+    width: 40px;
+    height: 40px;
+    background-position: 0 -400px;
+}
+
+.coin-111 {
+    width: 40px;
+    height: 40px;
+    background-position: -40px -400px;
+}
+
+.coin-112 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -400px;
+}
+
+.coin-113 {
+    width: 40px;
+    height: 40px;
+    background-position: -120px -400px;
+}
+
+.coin-114 {
+    width: 40px;
+    height: 40px;
+    background-position: -160px -400px;
+}
+
+.coin-115 {
+    width: 40px;
+    height: 40px;
+    background-position: -200px -400px;
+}
+
+.coin-116 {
+    width: 40px;
+    height: 40px;
+    background-position: -240px -400px;
+}
+
+.coin-117 {
+    width: 40px;
+    height: 40px;
+    background-position: -280px -400px;
+}
+
+.coin-118 {
+    width: 40px;
+    height: 40px;
+    background-position: -320px -400px;
+}
+
+.coin-119 {
+    width: 40px;
+    height: 40px;
+    background-position: -360px -400px;
+}
+
+.coin-120 {
+    width: 40px;
+    height: 40px;
+    background-position: -400px -400px;
+}

@@ -6,6 +6,6 @@ module.exports = {
     dirsToCopy: [
         'img',
     ],
-    minifyFiles: true,
+    minifyFiles: false,
     addSvgToHtml: false,
 }

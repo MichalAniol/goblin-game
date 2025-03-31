@@ -20,6 +20,8 @@
         "src/storage.ts",
         "src/dom.ts",
         "src/core.ts",
+        "src/game.ts",
+        "src/coin/coin.ts",
         "src/_index.ts",
     ],
     "exclude": [

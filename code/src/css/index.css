@@ -8,8 +8,3 @@ body {
     color: var(--prime_color);
     user-select: none;
 }
-
-.test {
-    font-family: var(--font);
-    font-size: 40px;
-}
