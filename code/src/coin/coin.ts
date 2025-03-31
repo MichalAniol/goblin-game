@@ -18,7 +18,8 @@ const coin = (function () {
         }
 
         let elem: HTMLElement
-        let frame = 0
+        let frame = (Math.floor(Math.random() * allFrameNum))
+
         let updateFunc: () => void
 
         const init = (x: number, y: number) => {
