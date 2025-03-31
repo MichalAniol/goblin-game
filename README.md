@@ -2,7 +2,7 @@
 
 ## uruchamianie
 
-Otwieramy trzy okna terminala, wszystkie w katalogu projektu. najłatwiej z użyciem VSCode/VSCodium. W każdym kolejno wpisujemy:
+Otwieramy trzy okna terminala, wszystkie w katalogu projektu. najłatwiej z użyciem VSCode/VSCodium. W każdym kolejno wpisujemy i w każdym wchodzimy w ```code```.
 
 1. ```npm run g``` - uruchamia składanie kodu ```*.html``` i ```*.css``` z katalogu ```src``` do katalogu ```prod```. obserwacja zmian jest ciągła i po zapisaniu pliku ```*.html``` lub ```*.css``` w katalogu ```src``` następuje ponowne złożenie plików.
 
