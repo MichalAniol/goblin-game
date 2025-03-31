@@ -1,5 +1,4 @@
 (function () {
-
     getStorage().then((store) => {
         core.store = store
 
@@ -34,7 +33,5 @@
         game.addUpdate(addNewCoin)
 
         game.start()
-
     })
-
 }())

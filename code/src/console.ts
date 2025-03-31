@@ -14,7 +14,7 @@ const setConsole = () => (function () {
         'margin: 10px 0',
         'padding: 10px 0 15px 0'
     ].join(';');
-    console.log('%c👉👈', styles)
+    console.log('%c👉Goblin Game👈', styles)
 
     let styles2 = [
         'background: linear-gradient(169deg, #f60707 0%, #ffd600 38%, #edff00 51%, #c4ed18 62%, #00ff19 100%)',
