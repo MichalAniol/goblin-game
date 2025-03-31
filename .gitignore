@@ -1,0 +1,7 @@
+code/node_modules
+code/.history
+code/prod/*
+!code/prod/favicon.ico
+code/.env
+code/.env.dev
+code/.env.prod
