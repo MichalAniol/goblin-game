@@ -1,0 +1,81 @@
+ :root {
+
+    --font_small_size: 16px;
+    --font_size: 26px;
+    --font_big_size: 40px;
+
+    --separator_small: 8px;
+    --separator: 14px;
+    --separator_big: 22px;
+
+    --tab_bar_height: 30px;
+    --tab_bar_font_size: 22px;
+    --tab_width: 200px;
+    --settings_width: 150px;
+    --section_title_font_size: 42px;
+    --list_width: 200px;
+    --list_item_height: 30px;
+
+    --qrcode_color: #ddd;
+    --qrcode_background_color: #181818;
+
+    --img_width: 50vw;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --prime_color: #aaa;
+        --second_color: #888;
+        --background_color: #121212;
+        --line_color: #444;
+
+        --outline_color: red;
+
+        --on_prime_color: #408b07;
+        --on_second_color: #315714;
+        --off_prime_color: #c21010;
+        --off_second_color: #841919;
+    }
+}
+
+@media screen and (prefers-color-scheme: light) {
+    :root {
+        --prime_color: #313131;
+        --second_color: #4c4c4c;
+        --background_color: #fff;
+        --line_color: #888;
+
+        --outline_color: red;
+
+        --on_prime_color: #539e1a;
+        --on_second_color: #83cd4b;
+        --off_prime_color: #ea5050;
+        --off_second_color: #f58383;
+    }
+}
+
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+*:focus-visible {
+    outline: 3px solid var(--outline_color);
+    outline-offset: 0px;
+} body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background_color);
+    font-family: var(--light_font);
+    font-size: var(--tab_bar_font_size);
+    line-height: var(--tab_bar_height);
+    color: var(--prime_color);
+    user-select: none;
+}
+ .coin {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
